@@ -1,4 +1,5 @@
 body {
+    margin: 0;
     background-color: #171321;
 }
 
@@ -17,14 +18,24 @@ body {
 .bg-y {
     background-color: #ffe742;
 }
+.emblema{
+font-family: 'Emblema One', cursive;
+}
+.roboto{
+    font-family: 'Roboto Mono', monospace;
+}
+.blackops{
+    font-family: 'Black Ops One', cursive;
+}
 
 /*navbar*/
 header {
-    position: absolute;
+    position:fixed ;
     top: 0;
     left: 0;
     border-right: #fff 4px solid;
     height: 100%;
+    width: 30%;
 }
 
 /*name*/
@@ -33,15 +44,13 @@ header {
 }
 
 #firstname {
-    font-size: 3rem;
-    font-family: 'Emblema One', cursive;
-    margin-right: 2rem;
-    margin-left: 1rem;
+    font-size: 2rem;
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
 }
 
 #lastname {
-    font-size: 1.5rem;
-    font-family: 'Emblema One', cursive;
+    font-size: 1rem;
     padding-left: 3px;
     padding-right: 3px;
     padding-top: 0.8rem;
@@ -57,8 +66,8 @@ header {
 }
 
 .btn-nav {
+    font-size: 0.8rem;
     font-family: 'Black Ops One', cursive;
-    font-weight: bold;
     border-top: #fff solid 1px;
     border-bottom: #fff solid 1px;
     text-decoration: none;
@@ -70,15 +79,119 @@ header {
 /*social link*/
 #iconcontainer {
     margin-top: 5rem;
-    margin-left: 0.8rem;
     color: #ffe742;
     font-size: 2rem;
 }
 
 #iconcontainer a {
+    font-size: 1.6rem;
     margin: 1rem;
     color: #ffe742;
 }
 
 /*end social link*/
 /*End navbar*/
+/*home*/
+#containerHome{
+    margin-top: 18rem;
+    margin-left: 8.8rem;
+}
+#firstnameTitle{
+    font-size: 3.5rem;
+    margin-bottom: -10px;
+
+}
+#lastnameTitle{
+    font-size: 1.7rem;
+    margin-right: 0.5rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#sentence{
+    font-size: 1.2rem;
+    margin: auto;
+    text-align: center;
+}
+
+#refresh{
+    font-size: 2rem;
+    text-align: center;
+}
+
+#refresh i{
+    cursor: pointer;
+}
+/*end home*/
+/*presentation*/
+#containerImgPresentation{
+    padding-bottom: 5rem;
+    margin-top: 20rem;
+    margin-left: 8rem;
+    border-top: #ffe742 solid 4px;
+    border-bottom: #ffe742 solid 4px;
+}
+#thumbnail{
+    margin-top: 3rem;
+    margin-left: 0.8rem;
+}
+#thumbnail img{
+    margin: 0.5rem;
+    width: 4rem;
+    height: 5rem;
+}
+#presentationImg img{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 1rem;
+    height: 20rem;
+    width: 16rem;
+}
+#sentenceQuestion{
+    margin-left: 1rem;
+}
+#longContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#longContainer p {
+    color: #fff;
+}
+#inputLong{
+    margin-left: 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+#presentationContainer{
+    color: #fff;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+/*end presentation*/
+/*skills*/
+#containerSkills{
+    margin-top: 5rem;
+    margin-left: 9rem;
+}
+#illustrationSkills img{
+    width: 16rem;
+    height: 22rem;
+}
+.emptybar{
+    margin-right: 1rem;
+    background-color: #fff;
+}
+#htmlbar{
+    background-color: #3c3f86 ;
+    margin-right: 1rem;
+}
+#cssbar{
+    background-color: #3c5986;
+    margin-right: 1rem
+}
+#phpbar{
+    background-color: #135f96;
+    margin-right: 1.5rem;
+}
+/*end skills*/
