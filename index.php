@@ -27,7 +27,7 @@
                 <a href="#" class="btn-nav">Présentation</a>
                 <a href="#" class="btn-nav">Compétences</a>
                 <a href="#" class="btn-nav">Réalisations</a>
-                <a href="#" class="btn-nav">Mon Cv</a>
+                <a href="#" class="btn-nav">Liens et Cv</a>
                 <a href="#" class="btn-nav">Contact</a>
             </div>
             <div id="iconcontainer">
@@ -73,9 +73,9 @@
         </section>
         <section id="containerSkills">
             <div id="illustrationSkills">
-                <img src="assets/img/raccoon-g1ed98ba64_1280.jpg" alt="">
+                <img src="assets/img/pexels-lukas-574069.jpg" alt="">
             </div>
-            <div class="blackops txt-w">
+            <div id="barcontainer" class="blackops txt-w">
                 <div class="emptybar">
                     <p class="" id="htmlbar">HTML</p>
                 </div>
@@ -85,13 +85,63 @@
                 <div class="emptybar">
                     <p id="phpbar">PHP</p>
                 </div>
-                <p>Javascript</p>
-                <p>MySQL</p>
-                <p>Wordpress</p>
-                <p>Bootstrap</p>
-                <p>Symfony</p>
-                <p>Figma</p>
+                <div class="emptybar">
+                    <p id="jsbar">Javascript</p>
+                </div>
+                <div class="emptybar">
+                    <p id="mysqlbar">MySQL</p>
+                </div>
+                <div class="emptybar">
+                    <p id="wordpressbar">Wordpress</p>
+                </div>
+                <div class="emptybar">
+                    <p id="bootstrapbar">Bootstrap</p>
+                </div>
+                <div class="emptybar">
+                    <p id="symfonybar">Symfony</p>
+                </div>
+                <div class="emptybar">
+                    <p id="figmabar">Figma</p>
+                </div>
             </div>
+        </section>
+        <section id="realisation">
+            <div id="carrousel">
+
+            </div>
+            <div>
+                <div id="illustrationproject">
+                    <img src="assets/img/image.png" alt="">
+                    <img src="assets/img/image2.png" alt="">
+                </div>
+                <div>
+                    <h3 class="blackops">Résumé du projet :</h3>
+                    <p class="roboto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi suscipit adipisci numquam? Reprehenderit necessitatibus dicta excepturi. Neque id, perferendis minus esse error eaque asperiores adipisci aspernatur molestiae laboriosam ipsam porro!</p>
+                    <h3 class="blackops">Technologies utilisés :</h3>
+                    <p class="roboto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi eveniet possimus magnam in totam et ullam at, fugiat neque facilis consequatur, quo, vel cupiditate aperiam quisquam praesentium impedit nostrum facere?</p>
+                </div>
+            </div>
+        </section>
+        <section id="cvcontainer">
+            <div id="link">
+                <h3 class="blackops">Ou me retrouver ?</h3>
+                <a class="roboto" href="">Github 🐙</a>
+                <a class="roboto" href="">Linkedin 👨‍💼</a>
+                <a class="roboto" href="">Instagram 📷</a>
+                <a class="roboto" href="">Discord 💻</a>
+                <a class="roboto" href="">Email 👨‍💻</a> 
+            </div>
+            <div id="cv">
+                <img src="assets/img/cv.png" alt="">
+            </div>
+        </section>
+        <section id="contact">
+            <h3 class="blackops" id="launchsentence">Une Question ? Une proposition ? C'est par ici !</h3>
+            <form id="contactform" action="" method="post">
+                <input type="text" placeholder="Nom" name="name" id="name">
+                <input type="email" placeholder="Email" name="email" id="email">
+                <textarea placeholder="Message" name="message" id="message" cols="30" rows="10"></textarea>
+            </form>
         </section>
     </main>
     <footer>

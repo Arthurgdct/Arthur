@@ -172,11 +172,17 @@ header {
 /*skills*/
 #containerSkills{
     margin-top: 5rem;
-    margin-left: 9rem;
+    margin-left: 8rem;
+    padding-bottom: 3rem;
+    border-bottom: solid 4px #ffe742;
 }
 #illustrationSkills img{
     width: 16rem;
     height: 22rem;
+    margin-left: 1rem;
+}
+#barcontainer{
+    margin-left: 1rem;
 }
 .emptybar{
     margin-right: 1rem;
@@ -194,4 +200,92 @@ header {
     background-color: #135f96;
     margin-right: 1.5rem;
 }
+#jsbar{
+    background-color: #137e96;
+    margin-right: 2rem ;
+}
+#mysqlbar{
+    background-color: #10a8b1;
+    margin-right: 1.5rem ;
+}
+#wordpressbar{
+    background-color: #06cdc1;
+    margin-right: 4rem ;
+}
+#bootstrapbar{
+    background-color: #01e4bc;
+    margin-right: 3rem;
+}
+#symfonybar{
+    background-color: #00d769;
+    margin-right: 7rem;
+}
+#figmabar{
+    background-color: #6cb68a;
+    margin-right: 2rem;
+}
 /*end skills*/
+/*realisation*/
+#realisation {
+    color: #fff;
+    margin-top: 3rem;
+    margin-left: 9rem;
+}
+#illustrationproject img {
+    margin-top: 2rem;
+    margin-left: 0.5rem;
+    width: 15rem;
+    height: 25rem;
+}
+/*end realisation*/
+/*cv*/
+#cvcontainer {
+    margin-left: 8rem;
+    color: #fff;
+    border-top: #ffe742 solid 4px;
+}
+#link{
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+#link a{
+    margin-top: 1rem;
+    text-align: center;
+    text-decoration: none;
+    color: #ffe742;
+}
+#cv img{
+    margin-left: 1rem;
+    margin-top: 2rem;
+    width: 16rem;
+    height: 25rem;
+}
+/*end cv*/
+/*contact*/
+#contact{
+    border-top: #ffe742 solid 4px;
+    margin-top: 3rem;
+    margin-left: 8rem;
+    margin-bottom: 5rem;
+}
+#launchsentence{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    color: #fff;
+    border-bottom: #ffe742 solid 4px;
+}
+#contactform{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+#contactform input{
+    margin-top: 1rem;
+}
+#contactform textarea{
+    margin-top: 1rem;
+}
+/*end contact*/
