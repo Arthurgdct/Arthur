@@ -55,7 +55,7 @@
                 <img src="assets/img/IMG_20220818_174427.jpg" alt="">
             </div>
             <div>
-                <p id="sentenceQuestion" class="txt-y roboto">Choisir la longueur de la présentation :</p>
+                <p id="sentenceQuestion" class="txt-y blackops">Choisir la longueur de la présentation :</p>
                 <div id="inputLong">
                     <input type="radio" name="pres" id="veryShort">
                     <input type="radio" name="pres" id="short" checked>
@@ -115,37 +115,57 @@
                     <img src="assets/img/image2.png" alt="">
                 </div>
                 <div>
-                    <h3 class="blackops">Résumé du projet :</h3>
+                    <h3 class="blackops txt-y">Résumé du projet :</h3>
                     <p class="roboto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi suscipit adipisci numquam? Reprehenderit necessitatibus dicta excepturi. Neque id, perferendis minus esse error eaque asperiores adipisci aspernatur molestiae laboriosam ipsam porro!</p>
-                    <h3 class="blackops">Technologies utilisés :</h3>
+                    <h3 class="blackops txt-y">Technologies utilisés :</h3>
                     <p class="roboto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi eveniet possimus magnam in totam et ullam at, fugiat neque facilis consequatur, quo, vel cupiditate aperiam quisquam praesentium impedit nostrum facere?</p>
                 </div>
             </div>
         </section>
         <section id="cvcontainer">
             <div id="link">
-                <h3 class="blackops">Ou me retrouver ?</h3>
+                <h3 class="blackops txt-y">Ou me retrouver ?</h3>
                 <a class="roboto" href="">Github 🐙</a>
                 <a class="roboto" href="">Linkedin 👨‍💼</a>
                 <a class="roboto" href="">Instagram 📷</a>
                 <a class="roboto" href="">Discord 💻</a>
-                <a class="roboto" href="">Email 👨‍💻</a> 
+                <a class="roboto" href="">Email 👨‍💻</a>
             </div>
             <div id="cv">
                 <img src="assets/img/cv.png" alt="">
             </div>
         </section>
         <section id="contact">
-            <h3 class="blackops" id="launchsentence">Une Question ? Une proposition ? C'est par ici !</h3>
+            <h3 class="blackops txt-y" id="launchsentence">Une Question ? Une proposition ? C'est par ici !</h3>
             <form id="contactform" action="" method="post">
                 <input type="text" placeholder="Nom" name="name" id="name">
                 <input type="email" placeholder="Email" name="email" id="email">
                 <textarea placeholder="Message" name="message" id="message" cols="30" rows="10"></textarea>
+                <input id="sendbtn" type="submit">
             </form>
         </section>
     </main>
     <footer>
-
+        <div id="footercontainer">
+            <div>
+                <h4 class="footertitle txt-b bg-y blackops">Developpeur informatique Junior</h4>
+                <p id="footerdesc" class="pfooter txt-w roboto">Jeune developpeur front-end & back-end passionné, je suis a votre disposition pour répondre a tout type de demande, information sur mon profil, proposition de projet, création de site web, ou d'apprentissage.</p>
+            </div>
+            <div>
+                <h4 class="footertitle txt-b bg-y blackops">Grand-clement Arthur</h4>
+                <p class="pfooter txt-w roboto"><i class="txt-y fa-solid fa-location-dot"></i> 2 lot des anémones, 13600 La ciotat</p>
+                <p class="pfooter txt-w roboto"><i class="txt-y fa-solid fa-phone"></i> 06 64 68 78 52</p>
+                <p class="pfooter txt-w roboto"><i class="txt-y fa-sharp fa-solid fa-envelope"></i> Email</p>
+                <p><a id="linkwebsite" href="" class="pfooter txt-w roboto"><i class="txt-y fa-solid fa-link"></i> Lien du site</a></p>
+            </div>
+        </div>
+        <div id="linkfooter" class="bg-y txt-b">
+            <a href="https://lamanu.fr/campus/versailles/">La Manu</a>
+            <a href="">Mentions Légales</a>
+        </div>
+        <div>
+            <p id="copyright" class="roboto bg-y txt-b"><i class=" fa-regular fa-copyright"></i> 2022 Grand-clement Arthur, Tous droits réservés.</p>
+        </div>
     </footer>
 </body>
 

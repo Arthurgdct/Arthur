@@ -18,19 +18,22 @@ body {
 .bg-y {
     background-color: #ffe742;
 }
-.emblema{
-font-family: 'Emblema One', cursive;
+
+.emblema {
+    font-family: 'Emblema One', cursive;
 }
-.roboto{
+
+.roboto {
     font-family: 'Roboto Mono', monospace;
 }
-.blackops{
+
+.blackops {
     font-family: 'Black Ops One', cursive;
 }
 
 /*navbar*/
 header {
-    position:fixed ;
+    position: fixed;
     top: 0;
     left: 0;
     border-right: #fff 4px solid;
@@ -92,77 +95,89 @@ header {
 /*end social link*/
 /*End navbar*/
 /*home*/
-#containerHome{
+#containerHome {
     margin-top: 18rem;
     margin-left: 8.8rem;
 }
-#firstnameTitle{
+
+#firstnameTitle {
     font-size: 3.5rem;
     margin-bottom: -10px;
 
 }
-#lastnameTitle{
+
+#lastnameTitle {
     font-size: 1.7rem;
     margin-right: 0.5rem;
     margin-top: 0;
     margin-bottom: 0;
 }
-#sentence{
+
+#sentence {
     font-size: 1.2rem;
     margin: auto;
     text-align: center;
 }
 
-#refresh{
+#refresh {
     font-size: 2rem;
     text-align: center;
 }
 
-#refresh i{
+#refresh i {
     cursor: pointer;
 }
+
 /*end home*/
 /*presentation*/
-#containerImgPresentation{
+#containerImgPresentation {
     padding-bottom: 5rem;
     margin-top: 20rem;
     margin-left: 8rem;
     border-top: #ffe742 solid 4px;
     border-bottom: #ffe742 solid 4px;
 }
-#thumbnail{
+
+#thumbnail {
     margin-top: 3rem;
     margin-left: 0.8rem;
 }
-#thumbnail img{
+
+#thumbnail img {
     margin: 0.5rem;
     width: 4rem;
     height: 5rem;
 }
-#presentationImg img{
+
+#presentationImg img {
     margin-top: 3rem;
     margin-bottom: 3rem;
     margin-left: 1rem;
     height: 20rem;
     width: 16rem;
 }
-#sentenceQuestion{
+
+#sentenceQuestion {
     margin-left: 1rem;
 }
-#longContainer{
+
+#longContainer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
+
 #longContainer p {
     color: #fff;
 }
-#inputLong{
+
+#inputLong {
     margin-left: 1rem;
     display: flex;
     justify-content: space-around;
 }
-#presentationContainer{
+
+#presentationContainer {
     color: #fff;
     margin-left: 1rem;
     margin-right: 1rem;
@@ -170,60 +185,73 @@ header {
 
 /*end presentation*/
 /*skills*/
-#containerSkills{
+#containerSkills {
     margin-top: 5rem;
     margin-left: 8rem;
     padding-bottom: 3rem;
     border-bottom: solid 4px #ffe742;
 }
-#illustrationSkills img{
+
+#illustrationSkills img {
     width: 16rem;
     height: 22rem;
     margin-left: 1rem;
 }
-#barcontainer{
+
+#barcontainer {
     margin-left: 1rem;
 }
-.emptybar{
+
+.emptybar {
     margin-right: 1rem;
     background-color: #fff;
 }
-#htmlbar{
-    background-color: #3c3f86 ;
+
+#htmlbar {
+    background-color: #3c3f86;
     margin-right: 1rem;
 }
-#cssbar{
+
+#cssbar {
     background-color: #3c5986;
     margin-right: 1rem
 }
-#phpbar{
+
+#phpbar {
     background-color: #135f96;
     margin-right: 1.5rem;
 }
-#jsbar{
+
+#jsbar {
     background-color: #137e96;
-    margin-right: 2rem ;
+    margin-right: 2rem;
 }
-#mysqlbar{
+
+#mysqlbar {
     background-color: #10a8b1;
-    margin-right: 1.5rem ;
+    margin-right: 1.5rem;
 }
-#wordpressbar{
+
+#wordpressbar {
     background-color: #06cdc1;
-    margin-right: 4rem ;
+    margin-right: 4rem;
 }
-#bootstrapbar{
+
+#bootstrapbar {
     background-color: #01e4bc;
     margin-right: 3rem;
 }
-#symfonybar{
+
+#symfonybar {
     background-color: #00d769;
     margin-right: 7rem;
 }
-#figmabar{
+
+#figmabar {
     background-color: #6cb68a;
     margin-right: 2rem;
 }
+
 /*end skills*/
 /*realisation*/
 #realisation {
@@ -231,12 +259,14 @@ header {
     margin-top: 3rem;
     margin-left: 9rem;
 }
+
 #illustrationproject img {
     margin-top: 2rem;
     margin-left: 0.5rem;
     width: 15rem;
     height: 25rem;
 }
+
 /*end realisation*/
 /*cv*/
 #cvcontainer {
@@ -244,48 +274,116 @@ header {
     color: #fff;
     border-top: #ffe742 solid 4px;
 }
-#link{
+
+#link {
     margin-left: 1rem;
     display: flex;
     flex-direction: column;
 }
-#link a{
+
+#link a {
     margin-top: 1rem;
     text-align: center;
     text-decoration: none;
-    color: #ffe742;
+    color: #fff;
 }
-#cv img{
+
+#cv img {
     margin-left: 1rem;
     margin-top: 2rem;
     width: 16rem;
     height: 25rem;
 }
+
 /*end cv*/
 /*contact*/
-#contact{
+#contact {
     border-top: #ffe742 solid 4px;
     margin-top: 3rem;
     margin-left: 8rem;
     margin-bottom: 5rem;
 }
-#launchsentence{
+
+#launchsentence {
     margin-left: 2rem;
     margin-right: 2rem;
-    color: #fff;
-    border-bottom: #ffe742 solid 4px;
 }
-#contactform{
+
+#contactform {
     display: flex;
     flex-direction: column;
     margin-left: 1rem;
     margin-right: 1rem;
 }
 
-#contactform input{
+#contactform input {
     margin-top: 1rem;
 }
-#contactform textarea{
+
+#contactform textarea {
     margin-top: 1rem;
 }
+
+#sendbtn {
+    font-weight: bold;
+    background-color: #ffe742;
+    border: none;
+}
+
 /*end contact*/
+/*footer*/
+footer {
+    background-color: #171321;
+    margin-left: 8rem;
+    border-top: #ffe742 solid 4px;
+}
+
+.footertitle {
+    height: 4rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    padding-right: 1rem;
+}
+
+#linkfooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#linkfooter a {
+    color: #171321;
+}
+
+.pfooter {
+    margin-right: 0.5rem;
+    font-size: 0.8rem;
+}
+
+#footercontainer {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#linkwebsite {
+    text-decoration: none;
+}
+
+#copyright {
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-top: 0.5rem;
+    text-align: center;
+    font-size: 0.55rem;
+    padding-bottom: 0.5rem;
+}
+#footerdesc{
+    margin-left: 0.5rem;
+}
+h4{
+    padding-left: 1rem;
+    margin-top: 0;
+}
+/*end footer*/
