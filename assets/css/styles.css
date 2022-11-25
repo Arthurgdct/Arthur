@@ -38,7 +38,7 @@ header {
     left: 0;
     border-right: #fff 4px solid;
     height: 100%;
-    width: 30%;
+    width: 8rem;
 }
 
 /*name*/
@@ -101,20 +101,18 @@ header {
 }
 
 #firstnameTitle {
-    font-size: 3.5rem;
+    text-align: center;
+    font-size: 2.7rem;
     margin-bottom: -10px;
-
 }
-
 #lastnameTitle {
-    font-size: 1.7rem;
-    margin-right: 0.5rem;
+    text-align: center;
+    font-size: 1.3rem;
     margin-top: 0;
     margin-bottom: 0;
 }
 
 #sentence {
-    font-size: 1.2rem;
     margin: auto;
     text-align: center;
 }
@@ -139,22 +137,24 @@ header {
 }
 
 #thumbnail {
-    margin-top: 3rem;
-    margin-left: 0.8rem;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 #thumbnail img {
-    margin: 0.5rem;
+    margin: 1%;
     width: 4rem;
     height: 5rem;
 }
 
 #presentationImg img {
-    margin-top: 3rem;
+    margin-top: 1rem;
     margin-bottom: 3rem;
     margin-left: 1rem;
-    height: 20rem;
-    width: 16rem;
+    height: 18rem;
+    width: 13rem;
 }
 
 #sentenceQuestion {
@@ -186,15 +186,15 @@ header {
 /*end presentation*/
 /*skills*/
 #containerSkills {
-    margin-top: 5rem;
+    margin-top: 3rem;
     margin-left: 8rem;
     padding-bottom: 3rem;
     border-bottom: solid 4px #ffe742;
 }
 
 #illustrationSkills img {
-    width: 16rem;
-    height: 22rem;
+    width: 13rem;
+    height: 18rem;
     margin-left: 1rem;
 }
 
@@ -263,8 +263,8 @@ header {
 #illustrationproject img {
     margin-top: 2rem;
     margin-left: 0.5rem;
-    width: 15rem;
-    height: 25rem;
+    width: 12rem;
+    height: 18rem;
 }
 
 /*end realisation*/
@@ -291,8 +291,8 @@ header {
 #cv img {
     margin-left: 1rem;
     margin-top: 2rem;
-    width: 16rem;
-    height: 25rem;
+    width: 13rem;
+    height: 18rem;
 }
 
 /*end cv*/
@@ -335,14 +335,13 @@ header {
 footer {
     background-color: #171321;
     margin-left: 8rem;
-    border-top: #ffe742 solid 4px;
 }
 
 .footertitle {
+    width: 100%;
     height: 4rem;
     margin-bottom: 1rem;
     font-size: 1rem;
-    padding-right: 1rem;
 }
 
 #linkfooter {
@@ -379,11 +378,42 @@ footer {
     font-size: 0.55rem;
     padding-bottom: 0.5rem;
 }
-#footerdesc{
+
+#footerdesc {
     margin-left: 0.5rem;
 }
-h4{
-    padding-left: 1rem;
+
+h4 {
     margin-top: 0;
 }
+
 /*end footer*/
+
+@media screen and (min-width: 500px) {
+    #lastnamecontainer {
+        margin-left: auto;
+        margin-right: auto;
+        width: 23rem;
+    }
+
+    #firstnameTitle {
+        font-size: 5rem;
+    }
+
+    #lastnameTitle {
+        font-size: 2.4rem;
+    }
+
+    #sentence {
+        width: 23rem;
+        font-size: 1.5rem;
+    }
+
+}
+
+@media screen and (min-width :768px) {
+    #containerImgPresentation {
+        display: flex;
+        flex-direction: row;
+    }
+}

@@ -11,7 +11,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Emblema+One&family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Emblema+One&family=Roboto+Mono&display=swap"
+        rel="stylesheet">
     <script src="https://kit.fontawesome.com/72e8ccb00a.js" crossorigin="anonymous"></script>
 </head>
 
@@ -19,7 +21,8 @@
     <header>
         <div id="namecontainer">
             <p id="firstname" class="txt-y emblema">A<br>R<br>T<br>H<br>U<br>R</p>
-            <p id="lastname" class="txt-b bg-y emblema">G<br>R<br>A<br>N<br>D<br>-<br>C<br>L<br>E<br>M<br>E<br>N<br>T</p>
+            <p id="lastname" class="txt-b bg-y emblema">G<br>R<br>A<br>N<br>D<br>-<br>C<br>L<br>E<br>M<br>E<br>N<br>T
+            </p>
         </div>
         <nav>
             <div id="btncontainer">
@@ -40,19 +43,23 @@
     <main>
         <section id="containerHome">
             <h1 id="firstnameTitle" class="txt-y emblema">ARTHUR</h1>
-            <h2 id="lastnameTitle" class="txt-b bg-y emblema">Grand-clement</h2>
+            <div id="lastnamecontainer" class="bg-y">
+                <h2 id="lastnameTitle" class="txt-b emblema">Grand-clement</h2>
+            </div>
             <p id="sentence" class="txt-y emblema">Est à la recherche d'un apprentissage</p>
             <p id="refresh"><i class="fa-solid fa-rotate-right txt-y"></i></p>
         </section>
 
         <section id="containerImgPresentation">
-            <div id="thumbnail">
-                <img src="assets/img/IMG_20220818_174427.jpg" alt="">
-                <img src="assets/img/Screenshot_20190602_222725.jpg" alt="">
-                <img src="assets/img/Screenshot_20190602_222725.jpg" alt="">
-            </div>
-            <div id="presentationImg">
-                <img src="assets/img/IMG_20220818_174427.jpg" alt="">
+            <div id="containerimg">
+                <div id="thumbnail">
+                    <img src="assets/img/IMG_20220818_174427.jpg" alt="">
+                    <img src="assets/img/Screenshot_20190602_222725.jpg" alt="">
+                    <img src="assets/img/Screenshot_20190602_222725.jpg" alt="">
+                </div>
+                <div id="presentationImg">
+                    <img src="assets/img/IMG_20220818_174427.jpg" alt="">
+                </div>
             </div>
             <div>
                 <p id="sentenceQuestion" class="txt-y blackops">Choisir la longueur de la présentation :</p>
@@ -67,7 +74,14 @@
                     <p>Longue</p>
                 </div>
                 <div id="presentationContainer" class="roboto">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, dicta consequuntur quo, iste vero expedita omnis blanditiis voluptate aliquam odit atque inventore quia est ad necessitatibus esse numquam illum tempora! Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio cum natus eveniet delectus totam officiis vel! Sit, doloremque, repudiandae eos incidunt iure totam corrupti consequuntur, repellendus nostrum beatae laborum. Ullam? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat consequatur quia eum quibusdam harum labore rerum corporis fuga aut cupiditate quidem obcaecati ipsa, exercitationem facere ratione porro dolore perferendis. Optio?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, dicta consequuntur quo, iste vero
+                        expedita omnis blanditiis voluptate aliquam odit atque inventore quia est ad necessitatibus esse
+                        numquam illum tempora! Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio cum natus
+                        eveniet delectus totam officiis vel! Sit, doloremque, repudiandae eos incidunt iure totam
+                        corrupti consequuntur, repellendus nostrum beatae laborum. Ullam? Lorem ipsum, dolor sit amet
+                        consectetur adipisicing elit. Quaerat consequatur quia eum quibusdam harum labore rerum corporis
+                        fuga aut cupiditate quidem obcaecati ipsa, exercitationem facere ratione porro dolore
+                        perferendis. Optio?</p>
                 </div>
             </div>
         </section>
@@ -116,9 +130,13 @@
                 </div>
                 <div>
                     <h3 class="blackops txt-y">Résumé du projet :</h3>
-                    <p class="roboto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi suscipit adipisci numquam? Reprehenderit necessitatibus dicta excepturi. Neque id, perferendis minus esse error eaque asperiores adipisci aspernatur molestiae laboriosam ipsam porro!</p>
+                    <p class="roboto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi suscipit adipisci
+                        numquam? Reprehenderit necessitatibus dicta excepturi. Neque id, perferendis minus esse error
+                        eaque asperiores adipisci aspernatur molestiae laboriosam ipsam porro!</p>
                     <h3 class="blackops txt-y">Technologies utilisés :</h3>
-                    <p class="roboto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi eveniet possimus magnam in totam et ullam at, fugiat neque facilis consequatur, quo, vel cupiditate aperiam quisquam praesentium impedit nostrum facere?</p>
+                    <p class="roboto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi eveniet
+                        possimus magnam in totam et ullam at, fugiat neque facilis consequatur, quo, vel cupiditate
+                        aperiam quisquam praesentium impedit nostrum facere?</p>
                 </div>
             </div>
         </section>
@@ -149,14 +167,18 @@
         <div id="footercontainer">
             <div>
                 <h4 class="footertitle txt-b bg-y blackops">Developpeur informatique Junior</h4>
-                <p id="footerdesc" class="pfooter txt-w roboto">Jeune developpeur front-end & back-end passionné, je suis a votre disposition pour répondre a tout type de demande, information sur mon profil, proposition de projet, création de site web, ou d'apprentissage.</p>
+                <p id="footerdesc" class="pfooter txt-w roboto">Jeune developpeur front-end & back-end passionné, je
+                    suis a votre disposition pour répondre a tout type de demande, information sur mon profil,
+                    proposition de projet, création de site web, ou d'apprentissage.</p>
             </div>
             <div>
                 <h4 class="footertitle txt-b bg-y blackops">Grand-clement Arthur</h4>
-                <p class="pfooter txt-w roboto"><i class="txt-y fa-solid fa-location-dot"></i> 2 lot des anémones, 13600 La ciotat</p>
+                <p class="pfooter txt-w roboto"><i class="txt-y fa-solid fa-location-dot"></i> 2 lot des anémones, 13600
+                    La ciotat</p>
                 <p class="pfooter txt-w roboto"><i class="txt-y fa-solid fa-phone"></i> 06 64 68 78 52</p>
                 <p class="pfooter txt-w roboto"><i class="txt-y fa-sharp fa-solid fa-envelope"></i> Email</p>
-                <p><a id="linkwebsite" href="" class="pfooter txt-w roboto"><i class="txt-y fa-solid fa-link"></i> Lien du site</a></p>
+                <p><a id="linkwebsite" href="" class="pfooter txt-w roboto"><i class="txt-y fa-solid fa-link"></i> Lien
+                        du site</a></p>
             </div>
         </div>
         <div id="linkfooter" class="bg-y txt-b">
@@ -164,7 +186,8 @@
             <a href="">Mentions Légales</a>
         </div>
         <div>
-            <p id="copyright" class="roboto bg-y txt-b"><i class=" fa-regular fa-copyright"></i> 2022 Grand-clement Arthur, Tous droits réservés.</p>
+            <p id="copyright" class="roboto bg-y txt-b"><i class=" fa-regular fa-copyright"></i> 2022 Grand-clement
+                Arthur, Tous droits réservés.</p>
         </div>
     </footer>
 </body>
