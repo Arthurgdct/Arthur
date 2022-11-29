@@ -105,6 +105,7 @@ header {
     font-size: 2.7rem;
     margin-bottom: -10px;
 }
+
 #lastnameTitle {
     text-align: center;
     font-size: 1.3rem;
@@ -137,7 +138,7 @@ header {
 }
 
 #thumbnail {
-    margin-top: 1rem;
+    margin-top: 5rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -149,10 +150,15 @@ header {
     height: 5rem;
 }
 
+#presentationImg {
+    display: flex;
+    justify-content: center;
+}
+
 #presentationImg img {
     margin-top: 1rem;
     margin-bottom: 3rem;
-    margin-left: 1rem;
+
     height: 18rem;
     width: 13rem;
 }
@@ -192,14 +198,21 @@ header {
     border-bottom: solid 4px #ffe742;
 }
 
+#illustrationSkills {
+    display: flex;
+    justify-content: center;
+}
+
 #illustrationSkills img {
+    margin-top: 1rem;
     width: 13rem;
     height: 18rem;
-    margin-left: 1rem;
 }
 
 #barcontainer {
     margin-left: 1rem;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .emptybar {
@@ -209,47 +222,47 @@ header {
 
 #htmlbar {
     background-color: #3c3f86;
-    margin-right: 1rem;
+    margin-right: 10%;
 }
 
 #cssbar {
     background-color: #3c5986;
-    margin-right: 1rem
+    margin-right: 10%;
 }
 
 #phpbar {
     background-color: #135f96;
-    margin-right: 1.5rem;
+    margin-right: 15%;
 }
 
 #jsbar {
     background-color: #137e96;
-    margin-right: 2rem;
+    margin-right: 20%;
 }
 
 #mysqlbar {
     background-color: #10a8b1;
-    margin-right: 1.5rem;
+    margin-right: 15%;
 }
 
 #wordpressbar {
     background-color: #06cdc1;
-    margin-right: 4rem;
+    margin-right: 40%;
 }
 
 #bootstrapbar {
     background-color: #01e4bc;
-    margin-right: 3rem;
+    margin-right: 25%;
 }
 
 #symfonybar {
     background-color: #00d769;
-    margin-right: 7rem;
+    margin-right: 70%;
 }
 
 #figmabar {
     background-color: #6cb68a;
-    margin-right: 2rem;
+    margin-right: 20%;
 }
 
 /*end skills*/
@@ -284,12 +297,15 @@ header {
 #link a {
     margin-top: 1rem;
     text-align: center;
-    text-decoration: none;
     color: #fff;
 }
 
+#cv {
+    display: flex;
+    justify-content: center;
+}
+
 #cv img {
-    margin-left: 1rem;
     margin-top: 2rem;
     width: 13rem;
     height: 18rem;
@@ -325,7 +341,12 @@ header {
 }
 
 #sendbtn {
+    padding: 0.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10rem;
     font-weight: bold;
+    font-size: 1.2rem;
     background-color: #ffe742;
     border: none;
 }
@@ -408,6 +429,10 @@ h4 {
         width: 23rem;
         font-size: 1.5rem;
     }
+    #cv img {
+        width: 20rem;
+        height: 28rem;
+    }
 
 }
 
@@ -415,5 +440,73 @@ h4 {
     #containerImgPresentation {
         display: flex;
         flex-direction: row;
+    }
+
+    #containerimg {
+        width: 50%;
+    }
+
+    #presentationImg img {
+        width: 18rem;
+        height: 24rem;
+    }
+
+    #thumbnail img {
+        width: 6rem;
+        height: 8rem;
+    }
+
+    #textualpresentation {
+        width: 50%;
+    }
+
+    #containerSkills {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    #illustrationSkills img {
+        width: 18rem;
+        height: 24rem;
+    }
+
+    #illustrationSkills {
+        width: 50%;
+    }
+
+    #barcontainer {
+        width: 50%;
+    }
+    #cv img {
+        width: 30rem;
+        height: 40rem;
+    }
+    #link a {
+        margin-top: 3rem;
+    }
+    #launchsentence {
+        text-align: center;
+    }
+    #contactform{
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (min-width :992px) {
+    #presentationImg img {
+        width: 25rem;
+        height: 30rem;
+    }
+
+    #illustrationSkills img {
+        width: 25rem;
+        height: 30rem;
+    }
+    #cv img {
+        width: 35rem;
+        height: 48rem;
     }
 }
