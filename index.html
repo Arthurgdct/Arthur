@@ -15,6 +15,7 @@
         href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Emblema+One&family=Roboto+Mono&display=swap"
         rel="stylesheet">
     <script src="https://kit.fontawesome.com/72e8ccb00a.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
@@ -46,8 +47,10 @@
             <div id="lastnamecontainer" class="bg-y">
                 <h2 id="lastnameTitle" class="txt-b emblema">Grand-clement</h2>
             </div>
-            <p id="sentence" class="txt-y emblema">Est à la recherche d'un apprentissage</p>
-            <p id="refresh"><i class="fa-solid fa-rotate-right txt-y"></i></p>
+            <div id="sentencecontainer">
+                <p id="sentence" class="txt-y emblema">Est à la recherche d'un apprentissage</p>
+            </div>
+            <p id="refresh"><i id="arrow" class="fa-solid fa-rotate-right txt-y"></i></p>
         </section>
 
         <section id="containerImgPresentation">
@@ -166,30 +169,41 @@
     <footer>
         <div id="footercontainer">
             <div>
-                <h4 class="footertitle txt-b bg-y blackops">Developpeur informatique Junior</h4>
-                <p id="footerdesc" class="pfooter txt-w roboto">Jeune developpeur front-end & back-end passionné, je
-                    suis a votre disposition pour répondre a tout type de demande, information sur mon profil,
-                    proposition de projet, création de site web, ou d'apprentissage.</p>
+                <div id="footertitle" class="bg-y">
+                    <h4 class="footertitle txt-b blackops">Developpeur informatique Junior</h4>
+                    <h4 class="footertitle txt-b blackops">Grand-clement Arthur</h4>
+                </div>
+                <div id="footercontent">
+                    <div id="minidesc">
+                        <p id="footerdesc" class="pfooter txt-w roboto">Jeune developpeur front-end & back-end
+                            passionné, je
+                            suis a votre disposition pour répondre a tout type de demande, information sur mon profil,
+                            proposition de projet, création de site web, ou d'apprentissage.</p>
+                    </div>
+                    <div>
+                        <p class="pfooter txt-w roboto"><i class="txt-y fa-solid fa-location-dot"></i> 2 lot des
+                            anémones,
+                            13600
+                            La ciotat</p>
+                        <p class="pfooter txt-w roboto"><i class="txt-y fa-solid fa-phone"></i> 06 64 68 78 52</p>
+                        <p class="pfooter txt-w roboto"><i class="txt-y fa-sharp fa-solid fa-envelope"></i> Email</p>
+                        <p><a id="linkwebsite" href="" class="pfooter txt-w roboto"><i
+                                    class="txt-y fa-solid fa-link"></i>
+                                Lien
+                                du site</a></p>
+                    </div>
+                </div>
+            </div>
+            <div id="linkfooter" class="bg-y txt-b">
+                <a href="https://lamanu.fr/campus/versailles/">La Manu</a>
+                <a href="">Mentions Légales</a>
             </div>
             <div>
-                <h4 class="footertitle txt-b bg-y blackops">Grand-clement Arthur</h4>
-                <p class="pfooter txt-w roboto"><i class="txt-y fa-solid fa-location-dot"></i> 2 lot des anémones, 13600
-                    La ciotat</p>
-                <p class="pfooter txt-w roboto"><i class="txt-y fa-solid fa-phone"></i> 06 64 68 78 52</p>
-                <p class="pfooter txt-w roboto"><i class="txt-y fa-sharp fa-solid fa-envelope"></i> Email</p>
-                <p><a id="linkwebsite" href="" class="pfooter txt-w roboto"><i class="txt-y fa-solid fa-link"></i> Lien
-                        du site</a></p>
+                <p id="copyright" class="roboto bg-y txt-b"><i class=" fa-regular fa-copyright"></i> 2022 Grand-clement
+                    Arthur, Tous droits réservés.</p>
             </div>
-        </div>
-        <div id="linkfooter" class="bg-y txt-b">
-            <a href="https://lamanu.fr/campus/versailles/">La Manu</a>
-            <a href="">Mentions Légales</a>
-        </div>
-        <div>
-            <p id="copyright" class="roboto bg-y txt-b"><i class=" fa-regular fa-copyright"></i> 2022 Grand-clement
-                Arthur, Tous droits réservés.</p>
-        </div>
     </footer>
+    <script src="assets/js/script.js"></script>
 </body>
 
 </html>

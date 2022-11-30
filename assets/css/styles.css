@@ -321,6 +321,7 @@ header {
 }
 
 #launchsentence {
+    margin-top: 5rem;
     margin-left: 2rem;
     margin-right: 2rem;
 }
@@ -341,6 +342,7 @@ header {
 }
 
 #sendbtn {
+    margin-bottom: 5rem;
     padding: 0.5rem;
     margin-left: auto;
     margin-right: auto;
@@ -380,13 +382,6 @@ footer {
     font-size: 0.8rem;
 }
 
-#footercontainer {
-    margin-bottom: 1rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
 #linkwebsite {
     text-decoration: none;
 }
@@ -402,6 +397,17 @@ footer {
 
 #footerdesc {
     margin-left: 0.5rem;
+}
+#footercontent{
+    display: flex;
+    flex-direction: row;
+}
+#footertitle{
+    display: flex;
+    flex-direction: row;
+}
+#minidesc{
+    width: 50%;
 }
 
 h4 {
