@@ -2,7 +2,12 @@ body {
     margin: 0;
     background-color: #171321;
 }
-
+.section-title {
+    margin-left: 0;
+    padding-left: 1rem;
+    margin-top: 0;
+    color: #171321;
+}
 .txt-w {
     color: #fff;
 }
@@ -130,7 +135,7 @@ header {
 /*end home*/
 /*presentation*/
 #containerImgPresentation {
-    padding-bottom: 5rem;
+    padding-bottom: 8rem;
     margin-top: 20rem;
     margin-left: 8rem;
     border-top: #ffe742 solid 4px;
@@ -196,9 +201,8 @@ header {
 /*end presentation*/
 /*skills*/
 #containerSkills {
-    margin-top: 3rem;
     margin-left: 8rem;
-    padding-bottom: 3rem;
+    padding-bottom: 8rem;
     border-bottom: solid 4px #ffe742;
 }
 
@@ -208,9 +212,7 @@ header {
 }
 
 #illustrationSkills img {
-    margin-top: 1rem;
-    width: 13rem;
-    height: 18rem;
+    width: 100%;
 }
 
 #barcontainer {
@@ -317,10 +319,12 @@ img.active {
 /*realisation*/
 #realisation {
     color: #fff;
-    margin-top: 3rem;
-    margin-left: 9rem;
+    margin-bottom: 8rem;
+    margin-left: 8rem;
 }
-
+#descproject{
+    margin-left: 1rem;
+}
 #illustrationproject img {
     margin-top: 2rem;
     margin-left: 0.5rem;
@@ -340,6 +344,7 @@ img.active {
     margin-left: 1rem;
     display: flex;
     flex-direction: column;
+    margin-bottom: 8rem;
 }
 
 #link a {
@@ -512,9 +517,10 @@ h4 {
 }
 
 @media screen and (min-width :768px) {
-    #containerImgPresentation {
+    #containerpres {
         display: flex;
         flex-direction: row;
+        margin-right: 2rem;
     }
 
     #containerimg {
@@ -535,7 +541,7 @@ h4 {
         width: 50%;
     }
 
-    #containerSkills {
+    #skills {
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -552,6 +558,10 @@ h4 {
 
     #barcontainer {
         width: 50%;
+    }
+    #barcontainer div{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
     }
 
     #cv img {
@@ -571,6 +581,15 @@ h4 {
         width: 60%;
         margin-left: auto;
         margin-right: auto;
+    }
+    #link a {
+        margin-top: 3rem;
+        margin-bottom: 4rem;
+    }
+    #cvlinkcontent {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
     }
 }
 
