@@ -1,3 +1,4 @@
+/*gestion des boutons pour changer la taille de la description*/
 document.getElementById('arrow').addEventListener('click', () => {
     modifySentence(newSentence());
 },false);
@@ -13,7 +14,17 @@ document.getElementById('classic').addEventListener('click',() => {
 document.getElementById('long').addEventListener('click',() => {
     modifyDesc('Bonjour, je m\'appel Arthur. J\'ai 25 ans et je suis passionné d\'informatique depuis mes 10 ans ou j\'ai découvert les ordinateurs grace a mon frere et les lan dans notre garage, il n\'aura fallut que quelques années avant que je commence a bidouiller mes premiers serveurs minecraft puis bien d\'autres aventures informatique on suivit... Mais dans la vie j\'ai d\'abord fait des études de menuisierie puis j\'ai travailler 5 ans a l\'usine que j\'ai finalement abbandonner pour tenter ma chance de devenir developpeur et d\'en faire mon métier avec une formation intensive. Ce qui nous ammenne a ce jour, ou je suis a la recherche d\'un apprentissage afin de continuer ma reconversion et vivre d\'un emploi dans un domaine qui me passionne véritablement. Tout ça pour vous dire que je suis quelqu\'un de déterminé qui aime le travaille d\'équipe et qui a énormenent envie d\'en apprendre plus chaque jours.')
 })
-
+/*gestion des images de la présentation*/
+document.getElementById('firstpicture').addEventListener('click',() => {
+    modifyimg('assets/img/IMG_20220818_174427.jpg')
+})
+document.getElementById('secondpicture').addEventListener('click',() => {
+    modifyimg('assets/img/Screenshot_20190602_222725.jpg')
+})
+document.getElementById('thirdpicture').addEventListener('click',() => {
+    modifyimg('assets/img/Screenshot_20190602_222725.jpg')
+})
+/*variables pour le caroussel*/
 const items = document.querySelectorAll('.carrouselimg');
 const nbSlide = items.length;
 const suivant = document.querySelector('.right');
@@ -117,5 +128,8 @@ function getRandomInt(min, max) {
     return Math.floor(Math.random() * (max - min) + min)
 }
 
-
+function modifyimg(src) {
+    const bigpict = document.getElementById('bigpicture');
+    bigpict.setAttribute('src', src);
+}
 

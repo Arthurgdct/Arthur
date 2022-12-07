@@ -28,11 +28,11 @@
         <nav>
             <div id="btncontainer">
                 <a href="#" class="btn-nav">Accueil</a>
-                <a href="#" class="btn-nav">Présentation</a>
-                <a href="#" class="btn-nav">Compétences</a>
-                <a href="#" class="btn-nav">Portfolio</a>
-                <a href="#" class="btn-nav">Liens et Cv</a>
-                <a href="#" class="btn-nav">Contact</a>
+                <a href="#containerImgPresentation" class="btn-nav">Présentation</a>
+                <a href="#containerSkills" class="btn-nav">Compétences</a>
+                <a href="#realisation" class="btn-nav">Portfolio</a>
+                <a href="#cvcontainer" class="btn-nav">Liens et Cv</a>
+                <a href="#contact" class="btn-nav">Contact</a>
             </div>
             <div id="iconcontainer">
                 <a href="https://www.linkedin.com/in/arthur-gdct/"><i class="fa-brands fa-linkedin"></i></a>
@@ -57,12 +57,16 @@
             <div id="containerpres">
                 <div id="containerimg">
                     <div id="thumbnail">
-                        <img src="assets/img/IMG_20220818_174427.jpg" alt="">
-                        <img src="assets/img/Screenshot_20190602_222725.jpg" alt="">
-                        <img src="assets/img/Screenshot_20190602_222725.jpg" alt="">
+                        <img src="assets/img/IMG_20220818_174427.jpg" id="firstpicture"
+                            alt="une photo de moi qui sourit">
+                        <img src="assets/img/Screenshot_20190602_222725.jpg" id="secondpicture"
+                            alt="un autre photo de moi...">
+                        <img src="assets/img/Screenshot_20190602_222725.jpg" id="thirdpicture"
+                            alt="encore une photo de moi ?!">
                     </div>
                     <div id="presentationImg">
-                        <img src="assets/img/IMG_20220818_174427.jpg" alt="">
+                        <img src="assets/img/IMG_20220818_174427.jpg" id="bigpicture"
+                            alt="Une photo de moi en plus grand">
                     </div>
                 </div>
                 <div id="textualpresentation">
@@ -127,47 +131,52 @@
         </section>
         <section id="realisation">
             <h2 class="bg-y section-title emblema">Portfolio</h2>
-            <div id="carrousel">
-                <div class="container">
-                    <div class="slider">
-                        <img class="active carrouselimg" src="assets/img/image.png">
-                        <img class="carrouselimg" src="assets/img/image.png">
-                        <img class="carrouselimg" src="assets/img/image2.png">
-                    </div>
-                    <div class="cont-btn">
-                        <div class="btn-nav-car left"><i class="fa-solid fa-arrow-left-long"></i></div>
-                        <div class="btn-nav-car right"><i class="fa-solid fa-arrow-right-long"></i></div>
+            <div id="realcontainer">
+                <div id="carrousel">
+                    <div class="container">
+                        <div class="slider">
+                            <img class="active carrouselimg" src="assets/img/image.png">
+                            <img class="carrouselimg" src="assets/img/image.png">
+                            <img class="carrouselimg" src="assets/img/image2.png">
+                        </div>
+                        <div class="cont-btn">
+                            <div class="btn-nav-car left"><i class="fa-solid fa-arrow-left-long"></i></div>
+                            <div class="btn-nav-car right"><i class="fa-solid fa-arrow-right-long"></i></div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div>
-                <div id="descproject">
-                    <h3 class="blackops txt-y">Résumé du projet :</h3>
-                    <p class="roboto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi suscipit adipisci
-                        numquam? Reprehenderit necessitatibus dicta excepturi. Neque id, perferendis minus esse error
-                        eaque asperiores adipisci aspernatur molestiae laboriosam ipsam porro!</p>
-                    <h3 class="blackops txt-y">Technologies utilisés :</h3>
-                    <p class="roboto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi eveniet
-                        possimus magnam in totam et ullam at, fugiat neque facilis consequatur, quo, vel cupiditate
-                        aperiam quisquam praesentium impedit nostrum facere?</p>
+                <div id="fulldesc">
+                    <div id="descproject">
+                        <h2 class="bg-y section-title emblema">UniversRp</h2>
+                        <h3 class="blackops txt-y">Résumé du projet :</h3>
+                        <p class="roboto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi suscipit
+                            adipisci
+                            numquam? Reprehenderit necessitatibus dicta excepturi. Neque id, perferendis minus esse
+                            error
+                            eaque asperiores adipisci aspernatur molestiae laboriosam ipsam porro!</p>
+                        <h3 class="blackops txt-y">Technologies utilisés :</h3>
+                        <p class="roboto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi eveniet
+                            possimus magnam in totam et ullam at, fugiat neque facilis consequatur, quo, vel cupiditate
+                            aperiam quisquam praesentium impedit nostrum facere?</p>
+                    </div>
                 </div>
             </div>
         </section>
         <section id="cvcontainer">
             <h2 class="bg-y section-title emblema">Liens et Cv</h2>
             <div id="cvlinkcontent">
-            <div id="cv">
-                <img src="assets/img/cv.png" alt="">
+                <div id="cv">
+                    <img src="assets/img/cv.png" alt="">
+                </div>
+                <div id="link">
+                    <h3 class="blackops txt-y">Ou me retrouver ?</h3>
+                    <a class="roboto" href="">Github 🐙</a>
+                    <a class="roboto" href="">Linkedin 👨‍💼</a>
+                    <a class="roboto" href="">Instagram 📷</a>
+                    <a class="roboto" href="">Discord 💻</a>
+                    <a class="roboto" href="">Email 👨‍💻</a>
+                </div>
             </div>
-            <div id="link">
-                <h3 class="blackops txt-y">Ou me retrouver ?</h3>
-                <a class="roboto" href="">Github 🐙</a>
-                <a class="roboto" href="">Linkedin 👨‍💼</a>
-                <a class="roboto" href="">Instagram 📷</a>
-                <a class="roboto" href="">Discord 💻</a>
-                <a class="roboto" href="">Email 👨‍💻</a>
-            </div>
-        </div>
         </section>
         <section id="contact">
             <h2 class="bg-y section-title emblema">Contact</h2>
@@ -178,7 +187,7 @@
                 <textarea placeholder="Message" name="message" id="message" cols="30" rows="10"></textarea>
                 <input id="sendbtn" type="submit">
             </form>
-        
+
         </section>
     </main>
     <footer>

@@ -154,6 +154,15 @@ header {
     width: 4rem;
     height: 5rem;
 }
+#firstpicture {
+    cursor: pointer;
+}
+#secondpicture {
+    cursor: pointer;
+}
+#thirdpicture {
+    cursor: pointer;
+}
 
 #presentationImg {
     display: flex;
@@ -522,6 +531,11 @@ h4 {
         flex-direction: row;
         margin-right: 2rem;
     }
+    #realcontainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
 
     #containerimg {
         width: 50%;
@@ -556,6 +570,11 @@ h4 {
         width: 50%;
     }
 
+    #fulldesc {
+        width: 40%;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
     #barcontainer {
         width: 50%;
     }
