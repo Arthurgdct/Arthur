@@ -92,8 +92,9 @@ function newSentence() {
     let team = 'Vie pour le travail d\'équipe !';
     let passion = 'Est véritablement passionné d\'informatique';
     let ask = 'Se demande si vous allez appuyer sur la flèche ?';
-    let powered = 'Powered by Html Css Js php and more'
-    let result = getRandomInt(1, 11);
+    let powered = 'Powered by Html Css Js php and more';
+    let since = 'Since 1997';
+    let result = getRandomInt(1, 12);
     if (result == 1) {
         return search;
     } else if (result == 2) {
@@ -116,6 +117,8 @@ function newSentence() {
         return ask;
     } else if (result == 11) {
         return powered;
+    }else if (result == 12) {
+        return since;
     }
 }
 

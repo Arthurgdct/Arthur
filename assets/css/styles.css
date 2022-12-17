@@ -436,6 +436,14 @@ img.active {
     border: none;
 }
 
+.errorsmsg {
+    color: red;
+}
+
+.validmsg {
+    color: #00d769;
+}
+
 /*end contact*/
 /*footer*/
 footer {
@@ -503,6 +511,10 @@ h4 {
 }
 
 #emailfooter {
+    text-decoration: none;
+}
+
+#telfooter {
     text-decoration: none;
 }
 
