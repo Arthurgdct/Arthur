@@ -5,11 +5,11 @@ discord.addEventListener('click', () => {alert('Nom d\'utilisateur copié dans l
 const email = document.getElementById('email');
 email.addEventListener('click', () => {alert('Email copié dans le presse-papier.')});
 email.addEventListener('click', () => { navigator.clipboard.writeText('grandclementarthur@gmail.com') });
-
-/*gestion des boutons pour changer la taille de la description*/
+/*gestion de la phrase d'acceuil*/
 document.getElementById('arrow').addEventListener('click', () => {
     modifySentence(newSentence());
 }, false);
+/*gestion des boutons pour changer la taille de la description*/
 document.getElementById('veryShort').addEventListener('click', () => {
     modifyDesc('Bonjour, je m\'appel Arthur. J\'ai 25 ans et je suis passionné d\'informatique. Je suis a la recherche d\'un apprentissage, je suis déterminé & j\'aime le travaille d\'équipe.')
 })
@@ -93,7 +93,7 @@ function newSentence() {
     let passion = 'Est véritablement passionné d\'informatique';
     let ask = 'Se demande si vous allez appuyer sur la flèche ?';
     let powered = 'Powered by Html Css Js php and more';
-    let since = 'Since 1997';
+    let since = 'Sur terre depuis déjà 25 ans !';
     let result = getRandomInt(1, 12);
     if (result == 1) {
         return search;

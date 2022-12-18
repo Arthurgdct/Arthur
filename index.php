@@ -1,23 +1,17 @@
 <?php include 'controllers/indexCtrl.php' ?>
 <!DOCTYPE html>
-
 <html lang="fr" dir="ltr">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Arthur Gdct</title>
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Emblema+One&family=Roboto+Mono&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Emblema+One&family=Roboto+Mono&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/72e8ccb00a.js" crossorigin="anonymous"></script>
-
 </head>
 
 <body>
@@ -41,7 +35,6 @@
                 <a href="https://github.com/Arthurgdct/"><i class="fa-brands fa-github"></i></a>
             </div>
         </nav>
-
     </header>
     <main>
         <section id="containerHome">
@@ -59,16 +52,12 @@
             <div id="containerpres">
                 <div id="containerimg">
                     <div id="thumbnail">
-                        <img src="assets/img/IMG_20220818_174427.jpg" id="firstpicture"
-                            alt="une photo de moi qui sourit">
-                        <img src="assets/img/Screenshot_20190602_222725.jpg" id="secondpicture"
-                            alt="un autre photo de moi...">
-                        <img src="assets/img/Screenshot_20190602_222725.jpg" id="thirdpicture"
-                            alt="encore une photo de moi ?!">
+                        <img src="assets/img/IMG_20220818_174427.jpg" id="firstpicture" alt="une photo de moi qui sourit">
+                        <img src="assets/img/Screenshot_20190602_222725.jpg" id="secondpicture" alt="un autre photo de moi...">
+                        <img src="assets/img/Screenshot_20190602_222725.jpg" id="thirdpicture" alt="encore une photo de moi ?!">
                     </div>
                     <div id="presentationImg">
-                        <img src="assets/img/IMG_20220818_174427.jpg" id="bigpicture"
-                            alt="Une photo de moi en plus grand">
+                        <img src="assets/img/IMG_20220818_174427.jpg" id="bigpicture" alt="Une photo de moi en plus grand">
                     </div>
                 </div>
                 <div id="textualpresentation">
@@ -138,7 +127,7 @@
                     <div class="container">
                         <div class="slider">
                             <img class="active carrouselimg" src="assets/img/image.png">
-                            <img class="carrouselimg" src="assets/img/image.png">
+                            <img class="carrouselimg" src="assets/img/imagepersonnage.png">
                             <img class="carrouselimg" src="assets/img/image2.png">
                         </div>
                         <div class="cont-btn">
@@ -168,7 +157,6 @@
                             <i class="fa-brands fa-square-js"></i>
                             <i class="fa-brands fa-bootstrap"></i>
                         </div>
-
                     </div>
                 </div>
             </div>
@@ -192,7 +180,7 @@
             <h2 class="bg-y section-title emblema">Contact</h2>
             <h3 class="blackops txt-y" id="launchsentence">Une Question ? Une proposition ? C'est par ici !</h3>
             <form id="contactform" action="" method="post">
-                <input type="text" placeholder="<?= (isset($_POST['name'])) ? $_POST['name'] : 'Nom' ?>"  name="name" id="name">
+                <input type="text" placeholder="<?= (isset($_POST['name'])) ? $_POST['name'] : 'Nom' ?>" name="name" id="name">
                 <?php if (isset($errors['name'])) { ?>
                     <p class="errorsmsg"><?= $errors['name'] ?></p>
                 <?php } ?>
@@ -200,16 +188,15 @@
                 <?php if (isset($errors['email'])) { ?>
                     <p class="errorsmsg"><?= $errors['email'] ?></p>
                 <?php } ?>
-                <textarea placeholder="<?= (isset($_POST['message'])) ? $_POST['message'] : 'Message'?>" name="message" id="message" cols="30" rows="10"></textarea>
+                <textarea placeholder="<?= (isset($_POST['message'])) ? $_POST['message'] : 'Message' ?>" name="message" id="message" cols="30" rows="10"></textarea>
                 <?php if (isset($errors['message'])) { ?>
                     <p class="errorsmsg"><?= $errors['message'] ?></p>
-                <?php } 
-                    if (isset($_POST['contact'])) {
-                        if (empty($errors)) { ?>
-                            <p class="validmsg">Votre message a bien été envoyer.</p>
-                        <?php }
-                    }
-                ?>
+                    <?php }
+                if (isset($_POST['contact'])) {
+                    if (empty($errors)) { ?>
+                        <p class="validmsg">Votre message a bien été envoyer.</p>
+                <?php }
+                } ?>
                 <input id="sendbtn" name="contact" type="submit">
             </form>
 
@@ -237,16 +224,13 @@
                                 <i class="txt-y fa-solid fa-location-dot"></i>
                                 13600 La ciotat
                             </p>
-                            <a id="telfooter" href="tel:0664687852" class="pfooter txt-w roboto"><i
-                                    class="txt-y fa-solid fa-phone"></i> 06 64 68 78 52</a>
+                            <a id="telfooter" href="tel:0664687852" class="pfooter txt-w roboto"><i class="txt-y fa-solid fa-phone"></i> 06 64 68 78 52</a>
                         </div>
                         <div>
-                            <a id="emailfooter" href="mailto:grandclementarthur@gmail.com"
-                                class="pfooter txt-w roboto"><i class="txt-y fa-sharp fa-solid fa-envelope"></i>
+                            <a id="emailfooter" href="mailto:grandclementarthur@gmail.com" class="pfooter txt-w roboto"><i class="txt-y fa-sharp fa-solid fa-envelope"></i>
                                 Email</a>
                             <p>
-                                <a id="linkwebsite" href="" class="pfooter txt-w roboto"><i
-                                        class="txt-y fa-solid fa-link"></i>Lien du site</a>
+                                <a id="linkwebsite" href="" class="pfooter txt-w roboto"><i class="txt-y fa-solid fa-link"></i>Lien du site</a>
                             </p>
                         </div>
                     </div>
@@ -254,7 +238,7 @@
             </div>
             <div id="linkfooter" class="bg-y txt-b">
                 <a href="https://lamanu.fr/campus/versailles/">La Manu</a>
-                <a href="">Mentions Légales</a>
+                <a href="mentionslegals.html">Mentions Légales</a>
             </div>
             <div>
                 <p id="copyright" class="roboto bg-y txt-b"><i class=" fa-regular fa-copyright"></i> 2022 Grand-clement
